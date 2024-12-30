@@ -20,5 +20,11 @@ namespace Csharp5
             double luas = (alas*tinggi)/2;
             return luas;
         }
+        public Segitiga() // constuctor yang menjadi default suatu kelas
+        {
+            alas = 100;
+            tinggi = 10;
+            Luas(alas, tinggi);
+        }
     }
 }
