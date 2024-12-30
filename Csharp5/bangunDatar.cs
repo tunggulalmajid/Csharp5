@@ -8,7 +8,7 @@ namespace Csharp5
 {
     class bangunDatar // kelas awal
     {
-        public string warna;
+        public string warna; // public bisa diakses semua kelas
         public double luas;
     }
     class Segitiga : bangunDatar //pewarisan sifat dari suatu kelas

@@ -11,8 +11,10 @@ namespace Csharp5
         static void Main(string[] args)
         {
             Segitiga segitiga = new Segitiga();
+            segitiga.warna = "biru";
             segitiga.alas = 20;
             segitiga.tinggi = 10;
+            Console.WriteLine("segitiga berwarna >> {0}",segitiga.warna);
             Console.Write("luas segitiga adalah >> ");
             Console.WriteLine(segitiga.Luas(segitiga.alas,segitiga.tinggi));
 
