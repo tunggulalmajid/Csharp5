@@ -22,4 +22,12 @@ namespace Csharp5
         /* interface berarti beberapa fungsi yang dikelompokkan seperti kelas namun fungsi nya berbeda
          untuk memudahkan komponen dalam program dan setiap komonen tidak lah terikat */
     }
+    static class mesin // static tidak memerlukan keyword new, todak dapat di turunkan, tidak dapat dibuat objek, isi nya harus memuat static atau tetap
+    {
+        static int ukuran;
+        static void bahanBakar()
+        {
+            Console.WriteLine("bensin");
+        }
+    }
 }
