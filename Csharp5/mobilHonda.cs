@@ -13,5 +13,13 @@ namespace Csharp5
         protected string tipe; // protected hampir sama dengan private hanya saja bisa di akses oleh kelas turunan
         internal string kendaraan; // internal berarti hanya dapat di akses oleh assembly yang sama 
 
+
+        // encapsulation berarti mengamankan data seperti menggunakan private dalam sebuah variabel
+
+    }
+    public interface IMobil
+    {
+        /* interface berarti beberapa fungsi yang dikelompokkan seperti kelas namun fungsi nya berbeda
+         untuk memudahkan komponen dalam program dan setiap komonen tidak lah terikat */
     }
 }
